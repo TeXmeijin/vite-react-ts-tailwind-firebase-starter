@@ -38,6 +38,14 @@ Additionally, CSS architecture is difficult about scoping, e.g. BEM, FLOCSS.
 
 When you decide to use Tailwind, you only write utility-first CSS classes, you don't have to worry about them!
 
-## ToDo
+## Formatter and Linter
+
+Already set up [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/). You can customize the rules.
+
+NOTICE: The template does not use [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) and [prettier-eslint](https://github.com/prettier/prettier-eslint). So I recommend that running commands individually. e.g. `prettier && eslint`.
+
+Please read: https://prettier.io/docs/en/integrating-with-linters.html.
+
+# ToDo
 
 - [ ] install and set up [TailwindCSS/JIT](https://github.com/tailwindlabs/tailwindcss-jit)
