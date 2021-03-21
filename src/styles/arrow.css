@@ -1,0 +1,34 @@
+.arrow {
+    width: 100%;
+    height: 0;
+    border-top: 2px solid #333;
+    position: relative;
+}
+
+.arrow::after {
+    position: absolute;
+    content: '';
+    display: block;
+}
+
+.arrow:not(.left)::after {
+    top: -2px;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    transform: rotate(45deg);
+    transform-origin: top right;
+}
+
+.arrow.left::after {
+    top: -2px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+    transform: rotate(-45deg);
+    transform-origin: top left;
+}
