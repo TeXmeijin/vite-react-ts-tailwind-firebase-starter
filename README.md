@@ -6,14 +6,14 @@ Starter using Vite + React + TypeScript + Tailwind.
 
 Improve building your faster prototyping by using Vite, TypeScript, React, TailwindCSS.
 
-### Vite
+## Vite
 
 [Vite](https://github.com/vitejs/vite) is a fast frontend build tool. According to the [README](https://github.com/vitejs/vite/blob/main/README.md), it consists of two major parts:
 
 - A dev server that serves your source files over native ES modules, with rich built-in features and astonishingly fast Hot Module Replacement (HMR).
 - A build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.
 
-### React
+## React
 
 [React](https://github.com/facebook/react) is a JavaScript library for building user interfaces.
 
@@ -21,13 +21,13 @@ Due to its awesome renderer system, there are many [React Renderor](https://gith
 
 Let's dive into React and Vite can use with React.
 
-### TypeScript
+## TypeScript
 
 [TypeScript](https://github.com/microsoft/TypeScript) is a superset of JavaScript. It is just one of NPM library, but it provides an original compiler.
 
 When you use TypeScript with React, you can write JSX with TypeScript, called TSX. Then you can develop views written by  **Type-Safe** template.
 
-### Tailwind CSS
+## Tailwind CSS
 
 [Tailwind CSS](https://tailwindcss.com/) is modern utility-first CSS framework. It provides many CSS rules, but these are purged when production builds. So developers do not worry about CSS asset size for performance optimization.
 
