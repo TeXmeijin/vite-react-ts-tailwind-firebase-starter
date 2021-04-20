@@ -48,4 +48,4 @@ Please read: https://prettier.io/docs/en/integrating-with-linters.html.
 
 # ToDo
 
-- [ ] install and set up [TailwindCSS/JIT](https://github.com/tailwindlabs/tailwindcss-jit)
+- [x] install and set up [TailwindCSS/JIT](https://github.com/tailwindlabs/tailwindcss-jit) see this [PR](https://github.com/TeXmeijin/vite-react-ts-tailwind-starter/pull/1)
