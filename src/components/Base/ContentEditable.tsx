@@ -9,7 +9,7 @@ const ContentEditable: React.VFC<{
 }> = ({value, onChange, onBlur, onResize}) => {
   const defaultValue = useRef(value)
 
-  const { ref, width, height, entry, unobserve, observe } = useDimensions({
+  const {observe: ref} = useDimensions({
     onResize: ({ width, height, entry, unobserve, observe }) => {
       onResize({width, height})
     },
@@ -22,7 +22,6 @@ const ContentEditable: React.VFC<{
 
   return (
     <div
-      // @ts-ignore
       ref={ref}
       contentEditable
       onInput={handleInput}
