@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "本リポジトリの説明(Japanese)",
+  "steps": [
+    {
+      "file": "vite.config.ts",
+      "description": "viteでreact-refreshを使うときに利用するプラグイン。",
+      "line": 6
+    },
+    {
+      "file": "tailwind.config.js",
+      "description": "tailwindCSSをJITコンパイラとともに利用すると、動的な値が入ったクラス名などを利用できて便利。",
+      "line": 3
+    },
+    {
+      "file": "index.html",
+      "description": "ローカル環境での開発にesbuildを用いているので、tsxファイルを直接指定してよい。",
+      "line": 11
+    },
+    {
+      "file": "src/pages/Diagram.tsx",
+      "description": "ここの`min-w-[280px]`などのクラス名が、動的にスタイルを決定できるJITコンパイラならではの機能です",
+      "line": 8
+    },
+    {
+      "file": "src/components/Base/ContentEditable.tsx",
+      "description": "contenteditableなコンポーネントです。\nhttps://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/contenteditable",
+      "line": 26
+    },
+    {
+      "file": "src/components/Base/ContentEditable.tsx",
+      "description": "focus疑似セレクタの指定もできるのは大変便利です。",
+      "line": 30
+    }
+  ]
+}
