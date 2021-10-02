@@ -6,7 +6,7 @@ import { connectStorageEmulator, getStorage } from "firebase/storage";
 let firebaseApp: FirebaseApp;
 const useEmulator = () => import.meta.env.VITE_USE_FIREBASE_EMULATOR;
 
-export const initializeFirebaseIfYet = () => {
+export const setupFirebase = () => {
   try {
     firebaseApp = initializeApp({
       apiKey: import.meta.env.VITE_FIREBASE_APIKEY,

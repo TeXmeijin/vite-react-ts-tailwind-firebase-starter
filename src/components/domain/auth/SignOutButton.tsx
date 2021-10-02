@@ -11,8 +11,8 @@ export const SignOutButton = (props: Props) => {
   return (
     <button
       onClick={handleClick}
-      type={"button"}
-      className="btn btn-info normal-case"
+      type="button"
+      className="btn normal-case"
     >
       Sign Out
     </button>

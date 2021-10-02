@@ -1,5 +1,5 @@
 import { Router } from "~/components/router/Router";
-import { initializeFirebaseIfYet } from "~/lib/firebase";
+import { setupFirebase } from "~/lib/firebase";
 import { useEffect } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { useSignIn, useSignOut } from "~/components/contexts/UserContext";
@@ -8,7 +8,7 @@ function Main() {
   const { signIn } = useSignIn();
   const { signOut } = useSignOut();
   useEffect(() => {
-    initializeFirebaseIfYet();
+    setupFirebase();
 
     const auth = getAuth();
 

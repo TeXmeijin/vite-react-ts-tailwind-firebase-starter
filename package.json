@@ -11,11 +11,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-cool-dimensions": "^2.0.7",
     "daisyui": "^1.14.1",
     "firebase": "^9.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-helmet-async": "^1.1.2",
     "react-router-dom": "^5.3.0"
   },
@@ -27,7 +26,6 @@
     "@typescript-eslint/parser": "^4.28.4",
     "@vitejs/plugin-react": "^1.0.0",
     "autoprefixer": "^10.3.1",
-    "tailwindcss": "^2.2.16",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
@@ -37,6 +35,7 @@
     "eslint-plugin-react": "^7.26.1",
     "postcss": "^8.3.6",
     "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.16",
     "typescript": "^4.3.5",
     "vite": "^2.6.2",
     "vite-tsconfig-paths": "^3.3.14"

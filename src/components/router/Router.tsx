@@ -2,7 +2,7 @@ import {lazy, Suspense} from "react";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 const Loading = () => (
-  <p className='p-4'>
+  <p className="p-4 w-full h-full text-center">
     Loading...
   </p>
 );
@@ -13,10 +13,10 @@ const Page404Screen = lazy(() => import('~/components/screens/404'))
 export const Router = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<Loading></Loading>}>
+      <Suspense fallback={<Loading />}>
         <Switch>
-          <Route exact path={'/'}>
-            <IndexScreen></IndexScreen>
+          <Route exact path="/">
+            <IndexScreen />
           </Route>
           <Route path="*">
             <Page404Screen />
