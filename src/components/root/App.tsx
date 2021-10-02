@@ -1,30 +1,13 @@
-import { Router } from "~/components/router/Router";
-import { initializeFirebaseIfYet } from "~/lib/firebase";
-import { useEffect } from "react";
-import { getAuth, onAuthStateChanged } from "firebase/auth";
-import { useSignIn, useSignOut } from "~/components/contexts/UserContext";
+import {HelmetProvider} from "react-helmet-async";
+import {AuthProvider} from "~/components/contexts/UserContext";
+import Main from "~/components/root/Main";
 
-function App() {
-  const { signIn } = useSignIn();
-  const { signOut } = useSignOut();
-  useEffect(() => {
-    initializeFirebaseIfYet();
-
-    const auth = getAuth();
-
-    onAuthStateChanged(auth, (user) => {
-      if (user) {
-        signIn(user);
-      } else {
-        signOut();
-      }
-    });
-  }, []);
+export const App = () => {
   return (
-    <main>
-      <Router></Router>
-    </main>
-  );
-}
-
-export default App;
+    <HelmetProvider>
+      <AuthProvider>
+        <Main />
+      </AuthProvider>
+    </HelmetProvider>
+  )
+};

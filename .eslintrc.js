@@ -16,6 +16,11 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   plugins: [
     'react',
     '@typescript-eslint'
@@ -23,6 +28,9 @@ module.exports = {
   rules: {
     'react/prop-types': 'off',
     'react/jsx-curly-brace-presence': 'error',
+    // React 17
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react/self-closing-comp': [
       'error',
       {
