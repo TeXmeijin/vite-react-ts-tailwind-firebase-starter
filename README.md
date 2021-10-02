@@ -4,7 +4,7 @@ Starter using Vite + React + TypeScript + Tailwind.
 
 ## Motivation
 
-Improve building your faster prototyping by using Vite, TypeScript, React, TailwindCSS.
+Improve building your faster **prototyping** by using Vite, TypeScript, React, TailwindCSS.
 
 ## Vite
 

@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { GlobalProviders } from "~/components/root/GlobalProviders";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GlobalProviders />
   </React.StrictMode>,
-  document.getElementById('root')
-)
+  document.getElementById("root")
+);
