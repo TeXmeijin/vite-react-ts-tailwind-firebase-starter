@@ -20,5 +20,12 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: [
+      'emerald'
+    ],
+  }
 }

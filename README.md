@@ -4,7 +4,39 @@ Starter using Vite + React + TypeScript + Tailwind.
 
 ## Motivation
 
-Improve building your faster prototyping by using Vite, TypeScript, React, TailwindCSS.
+Improve building your faster **prototyping** by using Vite, TypeScript, React, TailwindCSS.
+
+This starter uses following libraries:
+
+- Vite
+- React
+  - React Router
+- TypeScript
+- Tailwind CSS
+  - daisyUI
+- Firebase(v9, modular)
+- ESLint
+- Prettier
+
+## Set up
+
+```shell
+mv .env.local.example .env.local
+yarn
+yarn dev
+```
+
+### Firebase
+
+If you don't use Firebase, you should do:
+
+- `yarn rm firebase`
+- remove `VITE_FIREBASE_*` env values from `.env.local`
+
+If you want to use Firebase, you should do:
+
+- copy Firebase env values from Firebase Console, and paste them to `.env.local`.
+- enable Google Auth in Firebase Console. ref: https://firebase.google.com/docs/auth/web/google-signin#before_you_begin
 
 ## Vite
 
@@ -37,6 +69,22 @@ Frequently, React developers are worried about how to write CSS in TSX(JSX) temp
 Additionally, CSS architecture is difficult about scoping, e.g. BEM, FLOCSS.
 
 When you decide to use Tailwind, you only write utility-first CSS classes, you don't have to worry about them!
+
+### daisyUI
+
+[daisyUI](https://daisyui.com/) is Tailwind CSS Components library.
+
+It prepares components CSS classes such as 'btn'. If you provide 'btn' class to `<button>` element, then there should be placed completely designed button.
+
+If you don't want to use it, just remove the package and remove config in `tailwind.config.js`.
+
+## Firebase
+
+[Firebase](https://firebase.google.com/) is a PaaS that makes us create hi-quality apps so easy and so fast.
+
+This library is not suitable for everyone, but I think it is one of the best libraries for prototyping. Therefore, I have added it to this repository.
+
+The Firebase js SDK has become very useful in version 9, with [optimizations that greatly reduce bundle size](https://firebase.google.com/docs/web/modular-upgrade).
 
 ## Formatter and Linter
 
