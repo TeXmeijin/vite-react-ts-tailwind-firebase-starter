@@ -1,10 +1,10 @@
-# vite-react-ts-tailwind-starter
+# ⚡ vite-react-ts-tailwind-starter
 
-Starter using Vite + React + TypeScript + Tailwind.
+Starter using Vite + React + TypeScript + Tailwind with Firebase.
 
 ## Motivation
 
-Improve building your faster **prototyping** by using Vite, TypeScript, React, TailwindCSS.
+Improve building your faster **prototyping** by using Vite, TypeScript, React, TailwindCSS, Firebase.
 
 This starter uses following libraries:
 
@@ -28,7 +28,7 @@ yarn dev
 
 ### Firebase
 
-If you don't use Firebase, you should do:
+If you **DO NOT** use Firebase, you should do:
 
 - `yarn rm firebase`
 - remove `VITE_FIREBASE_*` env values from `.env.local`
@@ -85,6 +85,12 @@ If you don't want to use it, just remove the package and remove config in `tailw
 This library is not suitable for everyone, but I think it is one of the best libraries for prototyping. Therefore, I have added it to this repository.
 
 The Firebase js SDK has become very useful in version 9, with [optimizations that greatly reduce bundle size](https://firebase.google.com/docs/web/modular-upgrade).
+
+### How to Use
+
+Please look at [firebase.ts](https://github.com/TeXmeijin/vite-react-ts-tailwind-starter/blob/main/src/lib/firebase.ts).
+
+There you will find a set of utility functions to manipulate Firebase for the environment in which the Emulator is used.
 
 ## Formatter and Linter
 
