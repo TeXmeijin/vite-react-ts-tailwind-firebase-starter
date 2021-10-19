@@ -30,8 +30,10 @@ yarn dev
 
 If you **DO NOT** use Firebase, you should do:
 
-- `yarn remove firebase`
-- remove `VITE_FIREBASE_*` env values from `.env.local`
+- Delete the Firebase-related code: you check Main.tsx, SignInButton.tsx, SignOutButton.tsx.
+- And then delete `src/lib/firebase.ts`
+- Run `yarn remove firebase`
+- Remove `VITE_FIREBASE_*` env values from `.env.local`
 
 If you want to use Firebase, you should do:
 
