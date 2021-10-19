@@ -30,7 +30,7 @@ yarn dev
 
 If you **DO NOT** use Firebase, you should do:
 
-- `yarn rm firebase`
+- `yarn remove firebase`
 - remove `VITE_FIREBASE_*` env values from `.env.local`
 
 If you want to use Firebase, you should do:
