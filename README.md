@@ -30,8 +30,10 @@ yarn dev
 
 If you **DO NOT** use Firebase, you should do:
 
-- `yarn remove firebase`
-- remove `VITE_FIREBASE_*` env values from `.env.local`
+- Delete the Firebase-related code: you check Main.tsx, SignInButton.tsx, SignOutButton.tsx.
+- And then delete `src/lib/firebase.ts`
+- Run `yarn remove firebase`
+- Remove `VITE_FIREBASE_*` env values from `.env.local`
 
 If you want to use Firebase, you should do:
 
@@ -103,3 +105,9 @@ Please read: https://prettier.io/docs/en/integrating-with-linters.html.
 # ToDo
 
 - [x] install and set up [TailwindCSS/JIT](https://github.com/tailwindlabs/tailwindcss-jit) see this [PR](https://github.com/TeXmeijin/vite-react-ts-tailwind-starter/pull/1)
+
+---
+
+### Support me!
+
+<a href="https://www.buymeacoffee.com/meijin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
