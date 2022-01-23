@@ -1273,10 +1273,10 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
-daisyui@^1.24.3:
-  version "1.24.3"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-1.24.3.tgz#b91cc3415d59ad529a0d3eabfec1d9797a601a92"
-  integrity sha512-sSIZgy0Q2ObwB7mpsjfb9slhKG6Cec5KpXcwMUmE5EYZ5ZolgCsUK+BuD5zZUY2Ou0lj5qhHGr/BkLLIFbCI2A==
+daisyui@^1.25.0:
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-1.25.0.tgz#135ed460e152ffdd28b8c38e7893feb919c15065"
+  integrity sha512-JfCj6kkFxg5Vmmr/aSZXff2OscWT84e3oLSPs+P4H7v2GFOOPV2LhQYh9xo87v/M5sEgFyXg7aSMlMqr3hX/5A==
 
 debug@^2.6.9:
   version "2.6.9"
