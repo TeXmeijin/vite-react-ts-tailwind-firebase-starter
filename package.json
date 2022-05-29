@@ -11,7 +11,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.3",
+    "@headlessui/react": "^1.6.4",
     "daisyui": "^1.25.4",
     "firebase": "^9.8.2",
     "react": "^17.0.2",
