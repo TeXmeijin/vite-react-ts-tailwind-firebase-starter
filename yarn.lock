@@ -3504,10 +3504,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-tsconfig-paths@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.1.tgz#bc4ea70c7a71b1143e99fb56755a18b7280d433a"
-  integrity sha512-CQpI+zxo8/CnqsAaM2+Kpsgaj7UEKlM1fMMcm7RZQlcxRd7JwGpsYhrHJo/dIA3lsd7HI4JtSflH4+Ip+Dymkw==
+vite-tsconfig-paths@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.2.tgz#ed440ad50686712864835db044f43f19037a0dda"
+  integrity sha512-UzU8zwbCQrdUkj/Z0tnh293n4ScRcjJLoS8nPme2iB2FHoU5q8rhilb7AbhLlUC1uv4t6jSzVWnENjPnyGseeQ==
   dependencies:
     debug "^4.1.1"
     globrex "^0.1.2"
