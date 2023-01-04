@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
-    "daisyui": "^1.25.4",
+    "daisyui": "^2.46.1",
     "firebase": "^9.15.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
