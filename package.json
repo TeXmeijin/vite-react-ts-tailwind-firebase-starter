@@ -13,7 +13,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.8",
     "daisyui": "^2.50.0",
-    "firebase": "^9.16.0",
+    "firebase": "^9.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^1.3.0",
