@@ -16,7 +16,7 @@
     "firebase": "^9.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet-async": "^1.3.0",
+    "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.21.3"
   },
   "devDependencies": {
